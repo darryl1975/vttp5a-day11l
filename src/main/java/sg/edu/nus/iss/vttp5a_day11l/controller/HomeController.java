@@ -27,4 +27,11 @@ public class HomeController {
 
         return "Log in HomeController called...";
     }
+
+    @RequestMapping(path="/home", method=RequestMethod.GET)
+    public String homePage() {
+        return "home";
+    }
+
+
 }
