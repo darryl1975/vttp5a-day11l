@@ -17,3 +17,9 @@ Link up remote repo to local repo <br/>
 
 Push code up from local repo to remote repo <br/>
 6. git push -u origin main
+
+#Maven Compiler comand
+
+In project root folder <br/>
+./mvnw clean <br/>
+mvnw.cmd clean <br/>
