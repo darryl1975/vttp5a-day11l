@@ -1,4 +1,4 @@
-#Git commands
+# Git commands
 
 In project root folder <br/>
 1. git init
@@ -18,7 +18,7 @@ Link up remote repo to local repo <br/>
 Push code up from local repo to remote repo <br/>
 6. git push -u origin main
 
-#Maven Compiler comand
+# Maven Compiler comand
 
 In project root folder <br/>
 ./mvnw clean <br/>
