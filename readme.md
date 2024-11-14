@@ -23,3 +23,15 @@ Push code up from local repo to remote repo <br/>
 In project root folder <br/>
 ./mvnw clean <br/>
 mvnw.cmd clean <br/>
+
+package the compiled bytecode classes into jar/war file<br />
+./mvnw package <br />
+mvnw.cmd package <br/>
+
+delete target, redownload dependencies, recompile to class files, package to jar/war<br />
+./mvnw clean package <br/>
+mvnw.cmd clean package <br/>
+
+run the application in embedded localhost server <br />
+./mvnw spring-boot:run
+mvnw.cmd spring-boot:run
